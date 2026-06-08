@@ -103,7 +103,7 @@ export default function SupportScreen() {
             onPress={() => Linking.openURL(settings.instagram_url)}
           >
             <Ionicons name="logo-instagram" size={24} color="#E1306C" />
-          </View>
+          </TouchableOpacity>
         ) : null}
         {settings.youtube_url ? (
           <TouchableOpacity 
