@@ -1,0 +1,31 @@
+# Porsuk Backend
+*.pyc
+__pycache__/
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# Database
+db.sqlite3
+
+# Static & Media (collected)
+staticfiles/
+media/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
